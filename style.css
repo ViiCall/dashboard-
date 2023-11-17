@@ -1,22 +1,20 @@
-{font-family: 'Merriweather Sans', sans-serif;}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: white);
+  color: rgb(0, 0, 0);
 }
 
 input {
   font-weight: 500;
   font-size: 16px;
-  caret-color: #000000;
   border: none;
-  background: #013764;
+  background: #ffffff;
   border-radius: 50px;
   padding: 1rem;
 }
 input:focus {
-  outline: solid 2px #021a2c;
+  outline: solid 2px #ffffff;
 }
 
 button {
@@ -24,7 +22,7 @@ button {
   border-radius: 12px;
   padding: .6rem;
 
-  background: #1550a8;
+  background: #1b398d;
 }
 
 .container__login {
@@ -35,7 +33,7 @@ button {
   gap: 1rem;
   width: 100vw;
   height: 100vh;
-  background: #a1c8ec;
+  background: #000000;
 }
 
 .container__login button {
@@ -45,7 +43,7 @@ button {
 .container__dashboard {
   display: NONE;
   align-items: center;
-  justify-content: flex-start;rgb(255, 255, 255
+  justify-content: flex-start;
   flex-direction: column;
   width: 100vw;
   height: 100vh;
